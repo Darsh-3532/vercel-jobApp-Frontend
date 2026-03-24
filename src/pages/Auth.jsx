@@ -47,7 +47,10 @@ export default function Auth() {
             <div className="bg-[#5B4DFF] p-2.5 rounded-[12px] flex items-center justify-center shadow-sm">
               <Briefcase strokeWidth={1.5} className="h-[22px] w-[22px] text-white" />
             </div>
-            <span className="text-[22px] font-bold text-[#5B4DFF]">JAP IN</span>
+            <div className="flex flex-col justify-center">
+              <span className="text-[22px] font-bold text-[#5B4DFF] leading-none">JAP IN</span>
+              <span className="text-[10px] font-bold text-black uppercase tracking-widest mt-1">job app</span>
+            </div>
           </div>
           <h2 className="text-[26px] leading-tight font-extrabold text-[#0F172A] tracking-[-0.01em]">
             {isLogin ? 'Sign in to your account' : 'Create a new account'}

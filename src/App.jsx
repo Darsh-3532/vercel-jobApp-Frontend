@@ -20,8 +20,9 @@ function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-[72px]">
           <div className="flex items-center">
-            <div className="flex-shrink-0 flex items-center font-extrabold text-[22px] tracking-[-0.01em] text-[#5B4DFF]">
-              JAP IN
+            <div className="flex-shrink-0 flex flex-col justify-center">
+              <span className="font-extrabold text-[22px] tracking-[-0.01em] text-[#5B4DFF] leading-none">JAP IN</span>
+              <span className="text-[10px] font-bold text-black uppercase tracking-widest mt-0.5">job app</span>
             </div>
             <div className="hidden sm:ml-10 sm:flex sm:space-x-8 h-full">
               {user.role === 'Admin' ? (
