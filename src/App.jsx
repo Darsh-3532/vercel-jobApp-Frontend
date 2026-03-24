@@ -21,7 +21,7 @@ function Navbar() {
         <div className="flex justify-between h-[72px]">
           <div className="flex items-center">
             <div className="flex-shrink-0 flex items-center font-extrabold text-[22px] tracking-[-0.01em] text-[#5B4DFF]">
-              JobApp
+              JAP IN
             </div>
             <div className="hidden sm:ml-10 sm:flex sm:space-x-8 h-full">
               {user.role === 'Admin' ? (
